@@ -9,6 +9,7 @@
 
 /* УВЕЛИЧИВАЕМ ШРИФТ
 ================================================== */
+
 .font_medium.redesigned,
 .font_medium.redesigned #page_body 								{ font-family: Helvetica, Arial, sans-serif; font-size: 13px; }
 .font_medium.redesigned .post_like,
@@ -29,17 +30,17 @@
 /* УВЕЛИЧИВАЕМ ШАПКУ
 ================================================== */
 
-.font_medium.redesigned #page_header 					{ height: 55px; }
-.font_medium.redesigned #top_logo_down 					{ opacity: 0; }
-.font_medium.redesigned #page_header:before 			{ content: ""; display: block; width: 20px; height: 55px; position: absolute; left: -15px; border-radius: 0 0 0 17px; }
-.font_medium.redesigned #page_header:after 				{ content: ""; display: block; width: 20px; height: 55px; position: absolute; right: -15px; border-radius: 0 0 17px 0; }
-.font_medium.redesigned .head_nav a.top_nav_link   		{ padding: 20px 15px 21px; font-size: 13px; color: #E8EFF7; }
-.font_medium.redesigned .head_nav a.top_nav_link:hover 	{ color: #fff; }
-.font_medium.redesigned #head_play_btn 					{ top: 17px; }
-.font_medium.redesigned #ts_wrap 						{ height: 41px; left: 172px; }
-.font_medium.redesigned div.ts 							{ border-radius: 50px; }
-.font_medium.redesigned #top_back_link 					{ margin-left: 30px; background-position: left -75px; max-width: 260px!important; }
-.font_medium.redesigned div.ts_input_wrap 				{ width: 180px; left: 12px; }
+.font_medium.redesigned #page_header 							{ height: 55px; }
+.font_medium.redesigned #top_logo_down 							{ opacity: 0; }
+.font_medium.redesigned #page_header:before 					{ content: ""; display: block; width: 20px; height: 55px; position: absolute; left: -15px; border-radius: 0 0 0 17px; }
+.font_medium.redesigned #page_header:after 						{ content: ""; display: block; width: 20px; height: 55px; position: absolute; right: -15px; border-radius: 0 0 17px 0; }
+.font_medium.redesigned .head_nav a.top_nav_link   				{ padding: 20px 15px 21px; font-size: 13px; color: #E8EFF7; }
+.font_medium.redesigned .head_nav a.top_nav_link:hover 			{ color: #fff; }
+.font_medium.redesigned #head_play_btn 							{ top: 17px; }
+.font_medium.redesigned #ts_wrap 								{ height: 41px; left: 172px; }
+.font_medium.redesigned div.ts 									{ border-radius: 50px; }
+.font_medium.redesigned #top_back_link 							{ margin-left: 30px; background-position: left -75px; max-width: 260px!important; }
+.font_medium.redesigned div.ts_input_wrap 						{ width: 180px; left: 12px; }
 
 /* ПРОФИЛЬ
 ================================================== */
@@ -52,13 +53,16 @@
 .font_medium.redesigned .left_box.attention div                 { padding: 8px 10px 8px 10px }
 .font_medium.redesigned .left_box.attention h4                  { padding: 14px 10px 14px 10px; border-bottom: solid 1px #EEE; background: #F1F1F1; margin: 0; }
 
-.font_medium.redesigned .profile_action_btn button 				{ border-radius: 4px; }
+.font_medium.redesigned #side_bar .left_row 					{ padding: 3px 0 3px 10px!important; border-radius: 3px; }
+.font_medium.redesigned #side_bar ol li .left_row:hover .left_count_wrap { padding: 8px 6px !important; top: -2px; position: relative; }
+.font_medium.redesigned #side_bar ol li 						{ margin: 3px 0; }
 
-.font_medium.redesigned #side_bar ol li 							{ margin: 8px 0; }
+.font_medium.redesigned .profile_info_link,
+.font_medium.redesigned #profile_groups_link 						{ padding-left: 146px; }
+
 .font_medium.redesigned #profile_full_info h4 b 					{ font-size: 14px }
-.font_medium.redesigned #header 									{ padding: 9px 10px; background: #E8EDF3; font-size: 13px; border-color: #D8E7F7; }
-.font_medium.redesigned #owner_photo_wrap,
-.font_medium.redesigned #profile .rate_line    						{ width: 200px; font-size: 13px }
+.font_medium.redesigned #header 									{ padding: 9px 10px; background: #E8EDF3; font-size: 13px; border-color: #D9E0E7; }
+.font_medium.redesigned #profile .rate_line .rate_left 				{ border-left: 40px solid #DEE5EB; }
 .font_medium.redesigned #profile_actions,
 .font_medium.redesigned .profile_rate_warning  						{ width: 220px; } 
 .font_medium.redesigned .p_header_bottom,
@@ -76,14 +80,14 @@
 .font_medium.redesigned .profile_info .labeled 						{ width: 370px; }
 .font_medium.redesigned .video_module .video img 					{ width: 220px; height: 160px; }
 .font_medium.redesigned .video_module .video 						{ width: 220px; height: 160px; }
+.font_medium.redesigned  #public #subscribe,
+.font_medium.redesigned  #public #unsubscribe,
+.font_medium.redesigned  #public #unshare,
 .font_medium.redesigned .video_module .video div 					{ width: 220px; }
 .font_medium.redesigned #page_header .input_back 					{ font-size: 13px; padding: 11px 41px 3px 15px!important; }
 .font_medium.redesigned .page_name 									{ color: #4C6B8F; }
-.font_medium.redesigned input.text,
-.font_medium.redesigned input.search,
-.font_medium.redesigned textarea,
-.font_medium.redesigned input.big_text, 
-.font_medium.redesigned input.dark 									 { padding: 5px; }
+.font_medium.redesigned .wall_module #submit_post_box textarea 	     { width: 505px!important; box-sizing: border-box; padding: 11px; height: 40px; }
+.font_medium.redesigned .post_upload_wrap 							 { top: 2px; }
 .font_medium.redesigned #profile_photos_module .header_top.clear_fix { margin-bottom: 10px; }
 .font_medium.redesigned .video_module .info.clear 					 { font-weight: bold; margin-top: 175px; margin-bottom: 5px; font-size: 12px; }
 .font_medium.redesigned #group_photos .profile_sized_photos,
@@ -117,17 +121,23 @@
 ================================================== */
 
 .font_medium.redesigned ul.t0 .tab_word 								{ padding: 2px 1px; }
-.font_medium.redesigned .summary_tab3	 								{ font-weight: normal; padding: 3px 2px 5px; }
+.font_medium.redesigned .summary_tab3	 								{ font-weight: normal; padding: 3px 2px 4px; }
 .font_medium.redesigned .feed_tab_add .summary_tab3 					{ padding: 3px 2px 5px; }
 .font_medium.redesigned .summary_tab,
 .font_medium.redesigned .summary_tab_sel 								{ margin-top: 5px; }
 .font_medium.redesigned .t_bar 											{ border-width: 2px; }
-.font_medium.redesigned #feed_bar 										{ padding: 15px 10px 15px; }
+.font_medium.redesigned #video_search,
+.font_medium.redesigned #friends_search,
+.font_medium.redesigned #groups_list_search_wrap,
+.font_medium.redesigned #im_bar,
+.font_medium.redesigned #feed_bar 										{ padding: 15px 10px 15px!important; background: #F0F1F3; }
 .font_medium.redesigned .summary_wrap .summary 							{ padding-bottom: 9px}
 .font_medium.redesigned .summary_tab,
 .font_medium.redesigned .summary_tab_sel 								{ padding-left: 3px; padding-right: 3px; }
 .font_medium.redesigned .search_subtab2 								{ font-weight: normal; padding: 5px 10px 6px; }
 .font_medium.redesigned .im_tab3 										{ font-weight: normal; padding: 2px 3px; }
+.font_medium.redesigned .summary_tab2 									{ border-radius: 3px; }
+
 
 /* ГРУППА
 ================================================== */
@@ -137,19 +147,27 @@
 .font_medium.redesigned #page_current_info 		   						{ font-size: 13px; }
 .font_medium.redesigned .module_header .header_top 						{ padding: 8px 10px; }
 .font_medium.redesigned .wall_fixed .wall_post_text,
+.font_medium.redesigned .wall_fixed .wall_module .post_media,
 .font_medium.redesigned .wall_fixed .wall_module .post_info,
 .font_medium.redesigned .wall_fixed .wall_module .wall_text 			{ width: 520px!important; }
-/*.font_medium.redesigned .wall_text_name,
-.wall_post_text,
-.font_medium.redesigned .wall_module .post_info 						{ width: 465px!important; }
-.font_medium.redesigned .wall_text 										{ width: 460px!important; }*/
 
 .font_medium.redesigned div.fw_post_info 								{ width: 700px; }
 .font_medium.redesigned #fw_post .wall_text,
 .font_medium.redesigned #fw_post .wall_post_text,
+.font_medium.redesigned .page_post_sized_thumbs,
 .font_medium.redesigned #fw_post .post_media 							{ width: 700px; }
+.font_medium.redesigned .post_media 									{ width: 100%; }
 .font_medium.redesigned .fw_reply_text 									{ width: 570px; }
 .font_medium.redesigned #fw_one_replies_wrap 							{ padding-right: 80px; }
+
+.font_medium.redesigned #ba_post_sh,
+.font_medium.redesigned #ba_post_border 								{ width: 100%; }
+.font_medium.redesigned #ba_post 										{ width: 766px; }
+.font_medium.redesigned .board_post_open #ba_text						{ width: 670px; }
+.font_medium.redesigned #ba_text 										{ width: 750px; }
+.font_medium.redesigned .bp_post 										{ width: 730px; }
+.font_medium.redesigned .bp_text 										{ width: 640px; }
+.font_medium.redesigned .group_l_row 									{ width: 770px!important; }
 
 /* ИЗОБРАЖЕНИЯ
 ================================================== */
@@ -163,21 +181,21 @@
 /* ВИДЕОЗАПИСИ
 ================================================== */
 
-.font_medium.redesigned #results .search_video_row_cont,
-.font_medium.redesigned #likes_video_content .fave_video_item,
-.font_medium.redesigned #video_rows .video_row_cont 					{ zoom: 0.85; }
+.font_medium.redesigned .video_image_div 			{ width: 270px; height: 176px; }
+.font_medium.redesigned .video_row_cont 			{ height: 178px; width: 250px; }
+.font_medium.redesigned .video_row_inner_cont 		{ height: 176px; width: 254px; overflow: hidden; }
+.font_medium.redesigned .video_row_duration,
+.font_medium.redesigned .video_raw_info_name 		{ font-size: 12px; }
+.font_medium.redesigned .video_row_info_line 		{ width: 239px; }
 
-.font_medium.redesigned #results .search_video_row_duration,
-.font_medium.redesigned .search_video_raw_info_name,
-.font_medium.redesigned .video_raw_info_name							{ font-size: 13px; font-weight: bold; }
+.font_medium.redesigned .video_album_bg,
+.font_medium.redesigned .video_album_row_inner,
+.font_medium.redesigned .video_album 				{ height: 159px; width: 253px; }
+.font_medium.redesigned .video_album_info 			{ width: 237px; }
 
-
-.font_medium.redesigned #video_albums_cont .video_album 				{ zoom: 1.27; }
-
-.font_medium.redesigned #results .search_video_row_duration,
-.font_medium.redesigned #video_albums_cont .video_album_count,
-.font_medium.redesigned #video_albums_cont .video_album_text 			{ font-size: 9px; font-weight: bold; height: 10px; }
-
+.font_medium.redesigned .fave_video_duration_cont 	{ width: 245px; }
+.font_medium.redesigned .fave_video_item 			{ width: 245px; overflow: hidden; height: 180px; }
+.font_medium.redesigned .fave_video_info 			{ width: 239px; margin-top: 164px; overflow: hidden; }
 
 /* СООБЩЕНИЯ
 ================================================== */
@@ -189,24 +207,27 @@
 .im_fixed_nav #page_header  										{ width: 990px!important; }
 .im_fixed_nav #im_nav_wrap,
 .im_fixed_nav #side_bar 											{ top: 55px!important; }
-#im_peer_controls 													{ padding-left: 100px; }
+.font_medium.redesigned #im_peer_controls 							{ padding-left: 100px; }
+.font_medium.redesigned .im_editable 								{ width: 460px; }
 
 /* АУДИОЗАПИСИ
 ================================================== */
 
 #ac .shadow div,
 .audio_fixed_nav #ac 								{ width: 796px!important; }
-.audio_search .s_search 							{ width: 445px!important; }
+.audio_search .s_search 							{ width: 418px!important; }
 #ac .info 			 								{ width: 587px!important; }
 #ac .ac_name 										{ max-width: 400px!important; }
+
 .audio_fixed_nav #side_bar,
 .audio_fixed_nav #ac 								{ top: 55px!important; }
 .audio_fixed_nav #page_header  						{ width: 990px!important; }
 #audio.new 											{ padding-top: 102px!important; }
 
-.font_medium.redesigned #audio.new .area 			  { width: 590px }
-.font_medium.redesigned #audio.new .audio .info		  {  width: 555px}
-.font_medium.redesigned #audio.new .audio .title_wrap { width: 467px; }
+.font_medium.redesigned #audio.new .area 			  		{ width: 590px }
+.font_medium.redesigned #audio.new .audio .info		  		{  width: 555px}
+.font_medium.redesigned #audio.new .audio .title_wrap 		{ width: 467px; }
+.font_medium.redesigned .narrow_column .audio .title_wrap 	{ width: 170px;}
 
 /* КОММЕНТАРИИ
 ================================================== */
@@ -245,11 +266,10 @@
 .font_medium.redesigned .wide_wall_module .group_share .info, 
 .font_medium.redesigned .wide_wall_module .event_share .info,
 .font_medium.redesigned .wide_wall_module .group_checkin .info 		{ width: 355px; }
+.font_medium.redesigned .docs_empty,
+.font_medium.redesigned .docs_item 									{ width: 100%; max-width: 100%; }
 
 .font_medium.redesigned #feed_menu 									{ left: auto; right: 0; }
-
-#stl_side 			{ display: none!important; } 	/* need help */
-
 
 /* ИГРЫ
 ================================================== */
