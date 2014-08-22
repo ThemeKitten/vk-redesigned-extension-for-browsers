@@ -1,0 +1,18 @@
+{
+   "content_scripts": [ {
+      "css": [ "redesigned.css", "images.css" ],
+      "js": [ "jquery-2.1.0.min.js", "javascript.js" ],
+      "matches": [ "http://vk.com/*" ]
+   } ],
+   "description": "Expansion for the browser which improves design of VK.com",
+   "homepage_url": "http://vk.com/vkredesigned",
+   "icons": {
+      "16": "icon-16.png",
+      "48": "icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3ooP/l7u9Fxq+eJaw9ojp+f5hL5CgNCfc0m1CaJ2Alzzpr/Th6eHFG4TpIv2g4PqcPcgaXG7G/0RJch7S9M3aB2SOupTBu7GKzKjx7Hvhu51PPOv96UdiD0GZKIkk/2LDztQYAv08YNJXR3Uuu/JUNC9A7xvCkFwO7v+AADtuEVzQgw8CzEH7K4uU1KJ4TAYKBA20Puwn3AgXYDDq7E9SZpH7cvffP9/gKcNmZZFdVUuQAohZFq0LZRsimga5OBFLJJOBgEN9mIBQlgKen1tRW4i/hQ+h2g2QD0NbG3LMyTm5exTiGg/dKSyC37pbOeGRYPa8HtOxFDPxm/z5NM4ZwIDAQAB",
+   "manifest_version": 2,
+   "name": "VK Redesigned",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}
