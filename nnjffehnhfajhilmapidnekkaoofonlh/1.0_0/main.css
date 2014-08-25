@@ -1,0 +1,124 @@
+
+/* ================================================== */
+/* 
+/* VK Redesigned App
+/* http://vk.com/vkredesigned
+/* 
+================================================== */
+
+
+/* УВЕЛИЧИВАЕМ ШРИФТ
+================================================== */
+
+.font_medium.redesigned,
+.font_medium.redesigned #page_body 								{ font-family: Helvetica, Arial, sans-serif; font-size: 13px; }
+.font_medium.redesigned .post_like,
+.font_medium.redesigned .wall_module .info_footer,
+.font_medium.redesigned .post_share,
+.font_medium.redesigned .wall_module .reply_link_wrap 			{ font-size: 12px; }
+
+/* УВЕЛИЧИВАЕМ ШИРИНУ
+================================================== */
+
+.font_medium #page_layout 										{ width: 990px!important; }
+.font_medium #footer_wrap,
+.font_medium #page_body 										{ width: 800px!important; }
+.font_medium.redesigned ul.t0 									{ width: 100%; }
+.font_medium.redesigned .narrow_column 							{ width: 240px; }
+.font_medium.redesigned #content .wide_column 					{ width: 525px; }
+
+/* УВЕЛИЧИВАЕМ ШАПКУ
+================================================== */
+
+.font_medium.redesigned #page_header 							{ height: 55px; }
+.font_medium.redesigned #top_logo_down 							{ opacity: 0; }
+.font_medium.redesigned #page_header:before 					{ content: ""; display: block; width: 20px; height: 55px; position: absolute; left: -15px; border-radius: 0 0 0 17px; }
+.font_medium.redesigned #page_header:after 						{ content: ""; display: block; width: 20px; height: 55px; position: absolute; right: -15px; border-radius: 0 0 17px 0; }
+.font_medium.redesigned .head_nav a.top_nav_link   				{ padding: 20px 15px 21px; font-size: 13px; color: #E8EFF7; }
+.font_medium.redesigned .head_nav a.top_nav_link:hover 			{ color: #fff; }
+.font_medium.redesigned #head_play_btn 							{ top: 17px; }
+.font_medium.redesigned #ts_wrap 								{ height: 41px; left: 172px; }
+.font_medium.redesigned div.ts 									{ border-radius: 50px; }
+.font_medium.redesigned #top_back_link 							{ margin-left: 30px; background-position: left -75px; max-width: 260px!important; }
+.font_medium.redesigned div.ts_input_wrap 						{ width: 180px; left: 12px; }
+
+/* ПРОФИЛЬ
+================================================== */
+
+.font_medium.redesigned #left_blocks                            { width: 140px; margin-top: 30px; }
+.font_medium.redesigned .left_box.attention                     { position: relative; padding: 0; overflow: visible; }
+.font_medium.redesigned .left_box.attention:before,
+.font_medium.redesigned .left_box.attention:after 				{ position: absolute; display: block; left: 20px; top: -5px; height: 5px; width: 20px; background: #F1F1F1; content: ""; }
+.font_medium.redesigned .left_box.attention:after               { right: 20px; left: auto; }
+.font_medium.redesigned .left_box.attention div                 { padding: 8px 10px 8px 10px }
+.font_medium.redesigned .left_box.attention h4                  { padding: 14px 10px 14px 10px; border-bottom: solid 1px #EEE; background: #F1F1F1; margin: 0; }
+
+.font_medium.redesigned #side_bar .more_div 					{ margin: 10px 0; }
+.font_medium.redesigned #side_bar .left_row 					{ padding: 3px 0 3px 10px!important; border-radius: 3px; }
+.font_medium.redesigned #side_bar ol li .left_row:hover .left_count_wrap { padding: 8px 6px !important; top: -2px; position: relative; }
+.font_medium.redesigned #side_bar ol li 						{ margin: 3px 0; }
+
+.font_medium.redesigned #left_ads 									{ width: 140px; }
+.font_medium.redesigned .profile_info_link,
+.font_medium.redesigned #profile_groups_link 						{ padding-left: 146px; }
+
+.font_medium.redesigned #profile_full_info h4 b 					{ font-size: 14px }
+.font_medium.redesigned #header 									{ padding: 9px 10px; background: #E8EDF3; font-size: 13px; border-color: #D9E0E7; }
+.font_medium.redesigned #profile .rate_line .rate_left 				{ border-left: 40px solid #DEE5EB; }
+.font_medium.redesigned #profile_actions,
+.font_medium.redesigned .profile_rate_warning  						{ width: 220px; } 
+.font_medium.redesigned .p_header_bottom,
+.font_medium.redesigned #profile .narrow_column .header_top 		{ padding: 8px 10px; border: 0px; }
+.font_medium.redesigned .narrow_column .people_module .people_row  	{ width: 240px; }
+.font_medium.redesigned .module_body .people_cell 					{ width: 80px; }
+.font_medium.redesigned .module_body .people_cell .ava  			{ margin: 0px 13px; }
+.font_medium.redesigned .module_body .people_cell .name_field 		{ margin: 0px -112px; font-size: 13px }
+.font_medium.redesigned small 										{ font-size: 12px }
+.font_medium.redesigned #profile .narrow_column .module_body 		{ }
+.font_medium.redesigned #profile_idols.page_list_module .line_cell .desc_info { width: 175px; padding-top: 2px}
+.font_medium.redesigned .wide_column .module_header .header_top 	{ padding: 8px 10px; }
+.font_medium.redesigned .profile_info 								{ line-height: 180%; font-size: 13px; }
+.font_medium.redesigned .profile_info .label 						{ width: 140px; }
+.font_medium.redesigned .profile_info .labeled 						{ width: 370px; }
+.font_medium.redesigned .video_module .video img 					{ width: 220px; height: 160px; }
+.font_medium.redesigned .video_module .video 						{ width: 220px; height: 160px; }
+.font_medium.redesigned  #public #subscribe,
+.font_medium.redesigned  #public #unsubscribe,
+.font_medium.redesigned  #public #unshare,
+.font_medium.redesigned .video_module .video div 					 { width: 220px; }
+.font_medium.redesigned #page_header .input_back 					 { font-size: 13px; padding: 11px 41px 3px 15px!important; }
+.font_medium.redesigned .page_name 									 { color: #4C6B8F; }
+.font_medium.redesigned .wall_module #submit_post_box textarea 	     { width: 505px!important; box-sizing: border-box; padding: 11px; height: 20px; }
+.font_medium.redesigned .wall_module #submit_post_box .input_back 	 { padding: 3px!important; }
+
+.font_medium.redesigned .post_upload_wrap 							 { top: 2px; }
+.font_medium.redesigned #profile_photos_module .header_top.clear_fix { margin-bottom: 10px; }
+.font_medium.redesigned .video_module .info.clear 					 { font-weight: bold; margin-top: 175px; margin-bottom: 5px; font-size: 12px; }
+.font_medium.redesigned #group_photos .profile_sized_photos,
+.font_medium.redesigned #profile_photos 							 { zoom: 1.32; }
+.font_medium.redesigned .page_album_row 							 { zoom:1.2; }
+.font_medium.redesigned .page_album_camera,
+.font_medium.redesigned .page_album_title,
+.font_medium.redesigned .page_album_description 					 { font-size: 11px}
+.font_medium.redesigned #owner_photo_bubble_wrap 					 { margin-right: auto; margin-left: auto; }
+
+/* ПОСТ
+================================================== */
+
+.font_medium.redesigned .post .wall_text,
+.font_medium.redesigned .post .wall_post_text,
+.font_medium.redesigned .post .post_info 							{ width: 450px!important }
+.font_medium.redesigned .post .wall_post_text 						{ line-height: 175%!important; }
+
+/* ПРОКРУТКА
+================================================== */
+
+.font_medium .wide_wall_module .post .wall_text,
+.font_medium .wide_wall_module .post .wall_post_text,
+.font_medium .wide_wall_module .post .post_info 					{ width: 675px!important; }
+.font_medium .wide_wall_module .reply_info,
+.font_medium .wide_wall_module .wall_reply_text 					{ width: 600px!important; }
+.font_medium .wide_wall_module .post 								{ width: 775px!important; }
+.font_medium .page_wide_no_narrow .wide_column 						{ width: 775px!important; }
+
+/*.font_medium.redesigned #stl_side 											{ right: 80px!important; }*/
