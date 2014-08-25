@@ -1,7 +1,7 @@
 {
    "content_scripts": [ {
-      "css": [ "redesigned.css", "images.css" ],
-      "js": [ "jquery-2.1.0.min.js", "javascript.js" ],
+      "css": [ "main.css", "pages.css", "images.css" ],
+      "js": [ "javascript.js" ],
       "matches": [ "http://vk.com/*" ]
    } ],
    "description": "Expansion for the browser which improves design of VK.com",
@@ -14,5 +14,5 @@
    "manifest_version": 2,
    "name": "VK Redesigned",
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "1.0"
+   "version": "1.1"
 }
