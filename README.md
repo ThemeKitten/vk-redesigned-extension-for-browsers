@@ -19,7 +19,11 @@ Installation
 Download
 ==========================
 
-GoogleChrome or YandexBrowser
+GoogleChrome
+------
+https://chrome.google.com/webstore/detail/vk-redesigned/nnjffehnhfajhilmapidnekkaoofonlh?hl=ru
+
+YandexBrowser
 ------
 https://chrome.google.com/webstore/detail/vk-redesigned/nnjffehnhfajhilmapidnekkaoofonlh?hl=ru
 
