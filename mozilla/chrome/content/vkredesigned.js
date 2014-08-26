@@ -1,15 +1,13 @@
 var vkredesigned = function () {
-	
 	return {
 		init: function() {
 			if(gBrowser) {
 				var container = gBrowser.tabContainer;  
-				container.addEventListener("TabAttrModified", vkredesigned.check,false);   
+				container.addEventListener("TabAttrModified", vkredesigned.check,false);
 			}
 		},
 		check: function() {
 			if(content.document.location.href.search('vk.com') > -1) {
-				content.document.addEventListener("DOMNodeInserted", vkredesigned.run, false);
 
 				var mainCss=content.document.createElement("link");
 				mainCss.setAttribute("type","text/css");
