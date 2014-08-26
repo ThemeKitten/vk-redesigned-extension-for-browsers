@@ -70,7 +70,7 @@ html .font_medium #public #unsubscribe,
 html .font_medium #public #unshare,
 html .font_medium #profile_main_actions 					 { padding-right: 10px; padding-left: 10px; }
 
-html .font_medium #page_avatar								 { zoom: 1.15; text-align: left; }
+html .font_medium #page_avatar								 { zoom: 1.15; -moz-transform:  scale(1.15,1.15); -moz-transform-origin: left center; text-align: left; }
 
 html .font_medium .post_upload_wrap 						 { top: 2px; }
 html .font_medium #profile_photos_module .header_top.clear_fix { margin-bottom: 10px; }

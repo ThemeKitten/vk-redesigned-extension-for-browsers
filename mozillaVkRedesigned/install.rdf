@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+    <Description about="urn:mozilla:install-manifest">
+        <em:id>angelsmedia@yandex.com</em:id>
+        <em:type>2</em:type>
+        <em:unpack>true</em:unpack>
+        <em:version>1.3.0</em:version>
+
+        <em:localized>
+            <Description>
+                <em:locale>en-US</em:locale>
+                <em:name>VK Redesigned</em:name>
+                <em:description>Increases width of a site and a font for comfortable reading the text and more effective use of space of the monitor.</em:description>
+                <em:creator>VK.com/vkredesigned</em:creator>
+                <em:contributor>Anatoly Khodosevich</em:contributor>
+            </Description>
+        </em:localized>
+
+        <em:localized>
+            <Description>
+                <em:locale>ru</em:locale>
+                <em:name>Вконтакте Редизайнер</em:name>
+                <em:description>Расширение увеличивает ширину сайта Вконтакте и шрифт для комфортного чтения текста и более эффективного использования пространства монитора.</em:description>
+                <em:creator>VK.com/vkredesigned</em:creator>
+                <em:contributor>Анатолий Ходосевич</em:contributor>
+            </Description>
+        </em:localized>
+
+        <em:name>Вконтакте Редизайнер</em:name>
+        <em:description>Расширение увеличивает ширину сайта Вконтакте и шрифт для комфортного чтения текста и более эффективного использования пространства монитора.</em:description>
+        <em:creator>VK.com/vkredesigned</em:creator>
+        <em:contributor>Анатолий Ходосевич</em:contributor>
+
+        <em:iconURL>chrome://vkredesigned/content/icon-32.png</em:iconURL>
+        <em:icon64URL>chrome://vkredesigned/content/icon-64.png</em:icon64URL>
+        <em:homepageURL>http://vk.com/vkredesigned</em:homepageURL>
+
+        <em:targetApplication>
+            <Description>
+                <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+                <em:minVersion>17.0</em:minVersion>
+                <em:maxVersion>32.*</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+    </Description>
+</RDF>
