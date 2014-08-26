@@ -3,7 +3,7 @@
 
 Expansion for the browser which improves design of VK.com
 
-Increases width of a site and a font for comfortable reading the text and more effective use of space of the monitor.
+Extension increases the width of the site VK and font for comfortable reading text and more efficient use of space monitor
 
 New font-size - 13px, site width - 1024px.
 
