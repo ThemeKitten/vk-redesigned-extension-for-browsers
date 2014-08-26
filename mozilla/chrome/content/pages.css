@@ -1,0 +1,206 @@
+
+/* ТАБЫ
+================================================== */
+
+html .font_medium ul.t0 .tab_word 								{ padding: 2px 1px; }
+html .font_medium .summary_tab3	 								{ font-weight: normal; padding: 3px 2px 4px; }
+html .font_medium .feed_tab_add .summary_tab3 					{ padding: 3px 2px 5px; }
+html .font_medium .summary_tab,
+html .font_medium .summary_tab_sel 								{ margin-top: 5px; }
+html .font_medium .t_bar 										{ border-width: 2px; }
+html .font_medium #video_search,
+html .font_medium #friends_search,
+html .font_medium #groups_list_search_wrap,
+html .font_medium #im_bar,
+html .font_medium .summary_tabs,
+html .font_medium #group_bl_bar,
+html .font_medium #group_l_bar,
+html .font_medium #feed_bar 									{ padding: 15px 10px 15px!important; background: #F0F1F3; }
+html .font_medium .summary_wrap .summary 						{ padding-bottom: 9px}
+html .font_medium .summary_tab,
+html .font_medium .summary_tab_sel 								{ padding-left: 3px; padding-right: 3px; }
+html .font_medium .search_subtab2 								{ font-weight: normal; padding: 5px 10px 6px; }
+html .font_medium .im_tab3 										{ font-weight: normal; padding: 2px 3px; }
+html .font_medium .summary_tab2 								{ border-radius: 3px; }
+
+/* ГРУППА
+================================================== */
+
+html .font_medium.wide_column .big_header,
+html .font_medium .wide_column .top_header   					{ font-size: 15px; }
+html .font_medium #group h4.simple .top_header,
+html .font_medium .wide_column .topics_module .info,
+html .font_medium #page_current_info 		   					{ width: 500px; }
+html .font_medium h4.page_top 									{ padding-left: 0px; }
+html .font_medium .module_header .header_top 					{ padding: 8px 10px; }
+html .font_medium .wall_fixed .wall_post_text,
+html .font_medium .wall_fixed .wall_module .post_media,
+html .font_medium .wall_fixed .wall_module .post_info,
+html .font_medium .wall_fixed .wall_module .wall_text 			{ width: 500px!important; }
+
+html .font_medium div.fw_post_info 								{ width: 700px; }
+html .font_medium #fw_post .wall_text,
+html .font_medium #fw_post .wall_post_text,
+html .font_medium .page_post_sized_thumbs,
+html .font_medium #fw_post .post_media 							{ width: 700px; }
+html .font_medium .post_media 									{ width: 100%; }
+html .font_medium .fw_reply_text 								{ width: 570px; }
+html .font_medium #fw_one_replies_wrap 							{ padding-right: 80px; }
+
+html .font_medium #ba_post_sh,
+html .font_medium #ba_post_border 								{ width: 100%; }
+html .font_medium #ba_post 										{ width: 766px; }
+html .font_medium .board_post_open #ba_text						{ width: 670px; }
+html .font_medium #ba_text 										{ width: 750px; }
+html .font_medium .bp_post 										{ width: 730px; }
+html .font_medium .bp_text 										{ width: 640px; }
+html .font_medium .group_l_row 									{ width: 770px!important; }
+html .font_medium #pg_fixed 									{ margin-left: 300px; }
+
+/* ИЗОБРАЖЕНИЯ
+================================================== */
+
+html .font_medium #photos_albums_container .photo_row a.img_link,
+html .font_medium #photos_albums_container .photo_row 					{ width: 235px; height: 185px; }
+html .font_medium #photos_albums .photo_album_title 					{ width: 235px; }
+html .font_medium .page_album_title 									{ max-width: 115px; }
+html .font_medium #photos_albums .photo_album_title div.ge_photos_album { max-width: 170px; font-size: 12px; }
+html .font_medium .page_doc_photo 										{ width: 127px; height: 96px; }
+
+/* ВИДЕОЗАПИСИ
+================================================== */
+
+html .font_medium .video_image_div 							{ width: 270px; height: 176px; }
+html .font_medium .video_row_cont 							{ height: 178px; width: 250px; }
+html .font_medium .video_row_inner_cont 					{ height: 176px; width: 254px; overflow: hidden; }
+html .font_medium .video_row_duration,
+html .font_medium .video_raw_info_name 						{ font-size: 12px; }
+html .font_medium .video_row_info_line 						{ width: 239px; }
+
+html .font_medium .video_album_bg,
+html .font_medium .video_album_row_inner,
+html .font_medium .video_album 								{ height: 159px; width: 253px; }
+html .font_medium .video_album_info 						{ width: 237px; }
+
+html .font_medium .fave_video_duration_cont 				{ width: 245px; }
+html .font_medium .fave_video_item 							{ width: 245px; overflow: hidden; height: 180px; }
+html .font_medium .fave_video_info 							{ width: 239px; margin-top: 164px; overflow: hidden; }
+
+html .font_medium .video_search_cont,
+html .font_medium #video_search_controls 					{ width: 760px; }
+html .font_medium .video_search_extended #v_search 			{ width: 700px; }
+html .font_medium .video_search .video_reset_search 		{ margin-left: 730px;  }
+
+html .font_medium #mv_top_controls 							{ font-size: 12px; }
+
+/* СООБЩЕНИЯ
+================================================== */
+
+#im_top_sh,
+#im_bottom_sh,
+.im_fixed_nav #im_controls_wrap,
+.im_fixed_nav #im_nav_wrap  								{ width: 796px!important; }
+.im_fixed_nav #page_header  								{ width: 990px!important; }
+.im_fixed_nav #im_nav_wrap,
+.im_fixed_nav #side_bar 									{ top: 55px!important; }
+html .font_medium #im_peer_controls 						{ padding-left: 100px; }
+html .font_medium .im_editable 								{ width: 460px; }
+
+/* АУДИОЗАПИСИ
+================================================== */
+
+#ac .shadow div,
+.audio_fixed_nav #ac 												{ width: 796px!important; }
+.audio_search .s_search 											{ width: 418px!important; }
+#ac .info 			 												{ width: 587px!important; }
+#ac .ac_name 														{ max-width: 400px!important; }
+
+.audio_fixed_nav #side_bar,
+.audio_fixed_nav #ac 												{ top: 55px!important; }
+.audio_fixed_nav #page_header  										{ width: 990px!important; }
+#audio.new 															{ padding-top: 102px!important; }
+
+html .font_medium #audio.new .area 			  						{ width: 590px }
+html .font_medium #audio.new .audio .info		  					{ width: 555px; }
+html .font_medium #audio.new .audio .title_wrap 					{ width: 467px; }
+html .font_medium #audio .narrow_column .audio .title_wrap 			{ width: 150px; }
+
+/* КОММЕНТАРИИ
+================================================== */
+
+html .font_medium .wall_module .reply_info 						{ width: 400px; }
+html .font_medium .wall_module .wall_reply_text 				{ width: 350px; }
+
+html .font_medium .scroll .reply_info 							{ width: 600px; }
+html .font_medium .scroll .wall_reply_text 						{ width: 580px; }
+
+/* ДРУГИЕ СТРАНИЦЫ
+================================================== */
+
+html .font_medium #friends .main_panel 							{ width: 595px; }
+html .font_medium .settings_section h2,
+html .font_medium .settings_privacy_header, 
+html .font_medium .setbal_section h2 							{ font-weight: normal; }
+html .font_medium #mv_comment 									{ width: 95%; }
+html .font_medium #search_query_wrap.wide #search_query,
+html .font_medium #fave_new_link 								{ width: 615px; }
+html .font_medium .search_catalog_row.selected   				{ border-radius: 2px; }
+html .font_medium .summary_tab3 								{ font-size: 13px}
+html .font_medium .fave_link_item 								{ width: 96%; }
+html .font_medium .pv_cont .wide_column  						{ width: 320px }
+html .font_medium #pv_comment 									{ width: 300px; }
+html .font_medium .pv_comment 									{ width: 320px; }
+html .font_medium .pv_commtext,
+html .font_medium .pv_commtext,
+html .font_medium .pv_comm 										{ width: 260px; }
+html .font_medium #pv_box 										{ font-size: 12px; }
+html .font_medium .big_wall_post #submit_post_box textarea 		{ width: 750px; }
+html .font_medium .mv_cont .narrow_column,
+html .font_medium .pv_cont .narrow_column 						{ width: 190px; }
+html .font_medium #mv_comments_data .wide_column 				{ width: 480px; }
+html .font_medium #fwr_text 									{ width: 665px; }
+html .font_medium .wide_wall_module .group_share .info, 
+html .font_medium .wide_wall_module .event_share .info,
+html .font_medium .wide_wall_module .group_checkin .info 		{ width: 355px; }
+html .font_medium .docs_empty,
+html .font_medium .docs_item 									{ width: 100%; max-width: 100%; }
+html .font_medium #friends .wide .main_panel 					{ width: 765px; }
+html .font_medium #video_rows .review_comment 					{ width: 775px; }
+html .font_medium #feed_menu 									{ left: auto; right: 0; }
+html .font_medium .wall_fixed .wall_module .page_post_sized_thumbs,
+html .font_medium .wall_fixed .wall_module .page_post_sized_thumbs img,
+html .font_medium .wall_fixed .wall_module .page_post_sized_thumbs a 	{ width: 500px!important; height: auto!important; }
+
+html .font_medium #groups_list_search,
+html .font_medium .video_search #v_search,
+html .font_medium #friends #s_search,
+html .font_medium #im_filter,
+html .font_medium #group_bl_search,
+html .font_medium #group_l_search,
+html .font_medium #search_query 								{ background-position: 8px 10px; padding: 7px 40px 8px 20px; min-width: 540px; height: 15px; }
+html .font_medium #groups_list_search .input_back_content,
+html .font_medium .video_search #v_search .input_back_content,
+html .font_medium #friends #s_search .input_back_content,
+html .font_medium #im_filter .input_back_content,
+html .font_medium #group_bl_search .input_back_content,
+html .font_medium #group_l_search .input_back_content,
+html .font_medium #search_query .input_back_content 			{ padding: 3px 6px; }
+
+html .font_medium .tb_title 									{ font-size: 13px; }
+
+/* ИГРЫ
+================================================== */
+
+html .font_medium #apps_ads_rows_wrap,
+html .font_medium #apps_new_rows_scroll,
+html .font_medium #apps_ads_rows_scroll,
+html .font_medium #apps_friends_rows_scroll,
+html .font_medium .apps_collection_rows_scroll,
+html .font_medium #apps_grossing_rows_scroll, 
+html .font_medium #apps_search_cat_wrap.apps_scroll_wrap #app_search_scroll,
+html .font_medium #apps_search_wrap 							{ width: 796px!important; overflow: hidden; }
+
+/* ПОМОЩЬ
+================================================== */
+
+html .font_medium .tickets_reply_text							{ width: 685px; }
