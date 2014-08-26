@@ -10,10 +10,28 @@
 /* УВЕЛИЧИВАЕМ ШРИФТ
 ================================================== */
 
+.wk_large_cont,
+html .font_medium input[type="text"],
+html .font_medium input[type="submit"],
+html .font_medium input[type="button"],
+html .font_medium input[type="search"],
+html .font_medium input[type="password"],
+html .font_medium input[type~="text"], 
+html .font_medium input[type~="search"],
+html .font_medium input[type~="password"],
+html .font_medium input[type~="email"],
+html .font_medium input.text,
+html .font_medium input.search,
+html .font_medium textarea,
+html .font_medium input.big_text,
+html .font_medium input.file,
 html body.font_medium,
-html body.font_medium #page_body 							{ font-family: Helvetica, Arial, sans-serif; font-size: 13px; }
+html body.font_medium #page_body 							{ font-family: Helvetica, Arial, sans-serif; }
+html body.font_medium,
+html body.font_medium #page_body 							{ font-size: 13px; }
 html .font_medium .post_like,
 html .font_medium .wall_module .info_footer,
+html .font_medium .wall_module .like_wrap,
 html .font_medium .post_share,
 html .font_medium .wall_module .reply_link_wrap 			{ font-size: 12px; }
 
@@ -55,14 +73,14 @@ html .font_medium .left_box.attention h4                  	{ padding: 14px 10px 
 
 html .font_medium #side_bar .more_div 						{ margin: 10px 0; }
 html .font_medium #side_bar .left_row 						{ padding: 3px 0 3px 10px!important; border-radius: 3px; }
-html .font_medium #side_bar ol li .left_row:hover .left_count_wrap { padding: 8px 6px !important; top: -2px; position: relative; }
+.font_medium #side_bar ol li .left_row:hover .left_count_wrap{padding: 8px 6px !important; top: -2px; position: relative; }
 html .font_medium #side_bar ol li 							{ margin: 3px 0; }
 
 html .font_medium #left_ads 								{ width: 140px; }
 html .font_medium .profile_info_link,
 html .font_medium #profile_groups_link 						{ padding-left: 146px; }
 
-/* САЙДБАР ПРОФИЛЯ
+/* САЙДБАР ПРОФИЛЯ И ГРУППЫ
 ================================================== */
 
 html .font_medium #public #subscribe,
@@ -70,25 +88,20 @@ html .font_medium #public #unsubscribe,
 html .font_medium #public #unshare,
 html .font_medium #profile_main_actions 					 { padding-right: 10px; padding-left: 10px; }
 
-html .font_medium #page_avatar								 { zoom: 1.15; -moz-transform:  scale(1.15,1.15); -moz-transform-origin: left center; text-align: left; }
-
 html .font_medium .post_upload_wrap 						 { top: 2px; }
-html .font_medium #profile_photos_module .header_top.clear_fix { margin-bottom: 10px; }
+html .font_medium #profile_photos_module .header_top.clear_fix{margin-bottom: 10px; }
 html .font_medium .video_module .info.clear 				 { font-weight: bold; margin-top: 170px; margin-bottom: 5px; font-size: 12px; }
-html .font_medium #group_photos .profile_sized_photos,
-html .font_medium #profile_photos 							 { zoom: 1.32; }
-html .font_medium #owner_photo_bubble_wrap,
-html .font_medium .page_album_row 							 { zoom: 1.1; float:left; }
+html .font_medium #group_photos .profile_sized_photos 		 { transform: scale(1.31); height: 100px; margin: 20px 0 10px 65px;  }
+html .font_medium #profile_photos 							 { transform: scale(1.32); margin: 20px 0 20px 62px;  }
+html .font_medium .page_photo_thumb_big,
+html .font_medium .page_album_title_wrap,
+html .font_medium .page_album_row 							 { width: 210px; max-width: 210px; }
 html .font_medium .page_album_camera,
 html .font_medium .page_album_title,
 html .font_medium #owner_photo_bubble_wrap,
 html .font_medium #page_avatar,
-html .font_medium .page_album_description 					 { font-size: 11px}
+html .font_medium .page_album_description 					 { font-size: 12px;}
 html .font_medium #owner_photo_bubble_wrap 					 { margin-right: auto; margin-left: auto; }
-html .font_medium #group_like_module,
-html .font_medium #group #page_avatar,
-html .font_medium #public #page_avatar,
-html .font_medium .group_block_module 						 { float:  right; }
 
 html .font_medium .video_module .video img 					 { width: 210px; height: 155px; }
 html .font_medium .video_module .video 						 { width: 210px; height: 155px; }
@@ -105,11 +118,27 @@ html .font_medium #profile_actions a,
 html .font_medium #group .page_actions		 				 { width: 220px; }
 html .font_medium #group .page_actions,
 html .font_medium #public .page_actions,
-html .font_medium #public .like_module 						 { width: 230px; float: right; }
+html .font_medium #public .like_module,
 html .font_medium #profile_actions,
 html .font_medium .profile_rate_warning,
+html .font_medium #owner_photo_bubble,
+html .font_medium #page_avatar,
+html .font_medium #page_avatar img,
+html .font_medium .owner_photo_bubble_action,
+html .font_medium #owner_photo_bubble_wrap,
+html .font_medium #owner_photo_wrap,
 html .font_medium .profile_rate_warning .warning_row,
 html .font_medium #profile_counts 							 { width: 230px; }
+html .font_medium #page_avatar img 							 { height: auto; }
+html .font_medium #group .page_actions,
+html .font_medium #public .page_actions,
+html .font_medium #group_like_module,
+html .font_medium #group #page_avatar,
+html .font_medium #public #page_avatar,
+html .font_medium .group_block_module,
+html .font_medium #group #owner_photo_bubble_wrap,
+html .font_medium #public #owner_photo_bubble_wrap,
+html .font_medium #public .like_module 						{ margin-left: 10px; }
 
 
 /* ИНФОРМАЦИЯ О ПОЛЬЗОВАТЕЛЕ
@@ -155,14 +184,16 @@ html .font_medium .page_wide_no_narrow .wide_column 					{ width: 775px!importan
 
 /* НОВЫЕ КНОПКИ
 ================================================== */
+
 html .font_medium .button_blue button,
 html .font_medium .button_blue.button_disabled button:active,
 html .font_medium .button_blue.button_disabled button.active,
 html .font_medium .button_blue.button_disabled button:hover,
-html .font_medium .button_blue.button_disabled button.hover 		{ padding: 8px 16px; }
+html .font_medium .button_blue.button_disabled button.hover 		{ padding-top: 8px; padding-bottom: 8px; s}
 html .font_medium .post_media_link_preview_wrap button 				{ padding: 6px 10px; }
 html .font_medium .wdd_add3 										{ height: 20px; }
 html .font_medium .wdd_add2 										{ margin: 4px; }
+html .font_medium .profile_msg_split .cut_left 						{ width: 177px; }
 
 html .font_medium .narrow_column .module_body 		 				{ border: 0!important; }
 html .font_medium #profile .narrow_column .module 					{ border-right: 1px solid #f1f1f1; padding-right: 10px; }

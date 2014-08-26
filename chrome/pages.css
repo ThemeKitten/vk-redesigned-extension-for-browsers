@@ -169,7 +169,7 @@ html .font_medium #video_rows .review_comment 					{ width: 775px; }
 html .font_medium #feed_menu 									{ left: auto; right: 0; }
 html .font_medium .wall_fixed .wall_module .page_post_sized_thumbs,
 html .font_medium .wall_fixed .wall_module .page_post_sized_thumbs img,
-html .font_medium .wall_fixed .wall_module .page_post_sized_thumbs a { width: 500px!important; height: auto!important; }
+html .font_medium .wall_fixed .wall_module .page_post_sized_thumbs a 	{ width: 500px!important; height: auto!important; }
 
 html .font_medium #groups_list_search,
 html .font_medium .video_search #v_search,
@@ -187,7 +187,6 @@ html .font_medium #group_l_search .input_back_content,
 html .font_medium #search_query .input_back_content 			{ padding: 3px 6px; }
 
 html .font_medium .tb_title 									{ font-size: 13px; }
-.wk_large_cont  												{ font-family: Arial, Helvetica, sans-serif; }
 
 /* ИГРЫ
 ================================================== */
