@@ -57,6 +57,8 @@ html .font_medium .bp_text 										{ width: 640px; }
 html .font_medium .group_l_row 									{ width: 770px!important; }
 html .font_medium #pg_fixed 									{ margin-left: 300px; }
 html .font_medium .info_table .info_tab .labeled_text 			{ width: 390px; }
+html .font_medium .group_share .info,
+html .font_medium .event_share .info 							{ width: 355px; }
 
 /* ИЗОБРАЖЕНИЯ
 ================================================== */
@@ -71,7 +73,7 @@ html .font_medium .page_doc_photo 										{ width: 127px; height: 96px; }
 /* ВИДЕОЗАПИСИ
 ================================================== */
 
-html .font_medium .video_image_div 							{ width: 270px; height: 176px; }
+html .font_medium .video_image_div 							{ height: 176px; width: 270px; }
 html .font_medium .video_row_cont 							{ height: 178px; width: 250px; }
 html .font_medium .video_row_inner_cont 					{ height: 176px; width: 254px; overflow: hidden; }
 html .font_medium .video_row_duration,

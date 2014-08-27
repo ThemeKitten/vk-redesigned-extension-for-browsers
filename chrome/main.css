@@ -33,6 +33,7 @@ html .font_medium .post_like,
 html .font_medium .wall_module .info_footer,
 html .font_medium .wall_module .like_wrap,
 html .font_medium .post_share,
+html .font_medium #mv_min_layer,
 html .font_medium .wall_module .reply_link_wrap 			{ font-size: 12px; }
 
 /* УВЕЛИЧИВАЕМ ШИРИНУ
@@ -127,6 +128,7 @@ html .font_medium #page_avatar img,
 html .font_medium .owner_photo_bubble_action,
 html .font_medium #owner_photo_bubble_wrap,
 html .font_medium #owner_photo_wrap,
+html .font_medium #gifts_count_module,
 html .font_medium .profile_rate_warning .warning_row,
 html .font_medium #profile_counts 							 { width: 230px; }
 html .font_medium #page_avatar img 							 { height: auto; }
