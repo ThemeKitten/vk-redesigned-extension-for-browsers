@@ -7,7 +7,7 @@
    "web_accessible_resources": [
         "main.css", "pages.css", "images.css"
     ],
-   "description": "Expansion for the browser which improves design of VK.com",
+   "description": "Extension which improves design of VK.com.",
    "homepage_url": "http://vk.com/vkredesigned",
    "icons": {
       "16": "icon-16.png",
@@ -16,7 +16,7 @@
    "name": "VK Redesigned",
    "short_name": "VK Redesign",
    "permissions": [ "*://vk.com/*", "storage" ],
-   "version": "1.2",
+   "version": "1.4",
    "manifest_version": 2,
    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3ooP/l7u9Fxq+eJaw9ojp+f5hL5CgNCfc0m1CaJ2Alzzpr/Th6eHFG4TpIv2g4PqcPcgaXG7G/0RJch7S9M3aB2SOupTBu7GKzKjx7Hvhu51PPOv96UdiD0GZKIkk/2LDztQYAv08YNJXR3Uuu/JUNC9A7xvCkFwO7v+AADtuEVzQgw8CzEH7K4uU1KJ4TAYKBA20Puwn3AgXYDDq7E9SZpH7cvffP9/gKcNmZZFdVUuQAohZFq0LZRsimga5OBFLJJOBgEN9mIBQlgKen1tRW4i/hQ+h2g2QD0NbG3LMyTm5exTiGg/dKSyC37pbOeGRYPa8HtOxFDPxm/z5NM4ZwIDAQAB",
    "update_url": "https://clients2.google.com/service/update2/crx"
