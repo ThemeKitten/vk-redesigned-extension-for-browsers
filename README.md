@@ -1,9 +1,9 @@
-"VK Redesigned" extension for Browsers
+VK Redesigned
 ==========================
 
 Extension for the browser which improves design of VK.com
 
-Extension increases the width of the site VK and font for comfortable reading text and more efficient use of space monitor
+Extension increases the width of the site VK and font for comfortable reading text and more effective use of space monitor
 
 New font-size - 13px, site width - 1024px.
 
