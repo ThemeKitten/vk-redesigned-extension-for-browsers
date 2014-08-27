@@ -1,7 +1,7 @@
 "VK Redesigned" extension for Browsers
 ==========================
 
-Expansion for the browser which improves design of VK.com
+Extension for the browser which improves design of VK.com
 
 Extension increases the width of the site VK and font for comfortable reading text and more efficient use of space monitor
 
@@ -13,27 +13,25 @@ Site: http://vk.com/vkredesigned
 
 Installation
 ==========================
-1. To activate expansion for the browser.
-2. In settings to activate "Use large fonts".
+1. Activate.
+2. In settings VK turn on "Use large fonts".
 
-Download
-==========================
 
-GoogleChrome
+Google Chrome
 ------
 https://chrome.google.com/webstore/detail/vk-redesigned/nnjffehnhfajhilmapidnekkaoofonlh?hl=ru
 
-YandexBrowser
+Yandex.Browser
 ------
 https://chrome.google.com/webstore/detail/vk-redesigned/nnjffehnhfajhilmapidnekkaoofonlh?hl=ru
 
 Mozilla Firefox
 ------
-https://github.com/
+https://addons.mozilla.org/en-US/firefox/addon/vkredesigned/
 
-Opera
+Opera (soon)
 ------
-https://github.com/
+https://addons.opera.com/ru/extensions/details/vk-redesigned/
 
 Safari
 ------
