@@ -3,7 +3,7 @@ VK Redesigned
 
 Extension for the browser which improves design of VK.com
 
-Extension increases the width of the site VK and font for comfortable reading text and more effective use of space monitor
+Extension increases the width of the site VK and font for comfortable reading text and more effective use of space monitor.
 
 New font-size - 13px, site width - 1024px.
 
@@ -29,7 +29,7 @@ Mozilla Firefox
 ------
 https://addons.mozilla.org/en-US/firefox/addon/vkredesigned/
 
-Opera (soon)
+Opera
 ------
 https://addons.opera.com/ru/extensions/details/vk-redesigned/
 
