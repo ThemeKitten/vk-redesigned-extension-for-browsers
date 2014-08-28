@@ -170,9 +170,6 @@ html .font_medium .docs_item 									{ width: 100%; max-width: 100%; }
 html .font_medium #friends .wide .main_panel 					{ width: 765px; }
 html .font_medium #video_rows .review_comment 					{ width: 775px; }
 html .font_medium #feed_menu 									{ left: auto; right: 0; }
-html .font_medium .wall_fixed .wall_module .page_post_sized_thumbs,
-html .font_medium .wall_fixed .wall_module .page_post_sized_thumbs img,
-html .font_medium .wall_fixed .wall_module .page_post_sized_thumbs a 	{ width: 500px!important; height: auto!important; }
 
 html .font_medium #groups_list_search,
 html .font_medium .video_search #v_search,

@@ -1,7 +1,7 @@
 
 /* ================================================== */
 /* 
-/* VK Redesigned App
+/* VK Redesigned
 /* http://vk.com/vkredesigned
 /* 
 ================================================== */
@@ -26,8 +26,9 @@ html .font_medium textarea,
 html .font_medium input.big_text,
 html .font_medium input.file,
 html body.font_medium,
-html body.font_medium #page_body 							{ font-family: Helvetica, Arial, sans-serif; }
+html body.font_medium #page_body 							{ font-family: Arial, Helvetica, sans-serif; }
 html body.font_medium,
+html .font_medium #page_current_info,
 html body.font_medium #page_body 							{ font-size: 13px; }
 html .font_medium .post_like,
 html .font_medium .wall_module .info_footer,
@@ -74,7 +75,7 @@ html .font_medium .left_box.attention h4                  	{ padding: 14px 10px 
 
 html .font_medium #side_bar .more_div 						{ margin: 10px 0; }
 html .font_medium #side_bar .left_row 						{ padding: 3px 0 3px 10px!important; border-radius: 3px; }
-.font_medium #side_bar ol li .left_row:hover .left_count_wrap{padding: 8px 6px !important; top: -2px; position: relative; }
+html .font_medium #side_bar ol li .left_row:hover .left_count_wrap { padding: 8px 6px!important; top: -2px; position: relative; }
 html .font_medium #side_bar ol li 							{ margin: 3px 0; }
 
 html .font_medium #left_ads 								{ width: 140px; }
@@ -90,7 +91,7 @@ html .font_medium #public #unshare,
 html .font_medium #profile_main_actions 					 { padding-right: 10px; padding-left: 10px; }
 
 html .font_medium .post_upload_wrap 						 { top: 2px; }
-html .font_medium #profile_photos_module .header_top.clear_fix{margin-bottom: 10px; }
+html .font_medium #profile_photos_module .header_top.clear_fix { margin-bottom: 10px; }
 html .font_medium .video_module .info.clear 				 { font-weight: bold; margin-top: 170px; margin-bottom: 5px; font-size: 12px; }
 html .font_medium #group_photos .profile_sized_photos 		 { transform: scale(1.31); height: 100px; margin: 20px 0 10px 65px;  }
 html .font_medium #profile_photos 							 { transform: scale(1.32); margin: 20px 0 20px 62px;  }
@@ -170,6 +171,7 @@ html .font_medium .wall_module #submit_post_box .input_back { padding: 3px 4px!i
 
 html .font_medium .post .wall_text,
 html .font_medium .post .wall_post_text,
+html .font_medium .post .wall_text_name,
 html .font_medium .post .post_info 							  { width: 450px!important }
 html .font_medium .post .wall_post_text 					  { line-height: 175%!important; }
 
