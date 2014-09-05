@@ -73,12 +73,13 @@ html .font_medium .page_doc_photo 										{ width: 127px; height: 96px; }
 /* ВИДЕОЗАПИСИ
 ================================================== */
 
-html .font_medium .video_image_div 							{ height: 176px; width: 270px; }
-html .font_medium .video_row_cont 							{ height: 178px; width: 250px; }
-html .font_medium .video_row_inner_cont 					{ height: 176px; width: 254px; overflow: hidden; }
+html .font_medium .video_image_div 							{ height: 165px; width: 270px; }
+html .font_medium .video_row_cont 							{ height: 160px; width: 250px; }
+html .font_medium .video_row_inner_cont 					{ height: 168px; width: 254px; overflow: hidden; }
 html .font_medium .video_row_duration,
-html .font_medium .video_raw_info_name 						{ font-size: 12px; }
-html .font_medium .video_row_info_line 						{ width: 239px; }
+html .font_medium .video_raw_info_name 						{ font-size: 12px; height: 15px; white-space: nowrap!important; }
+html .font_medium .video_row_info_line 						{ width: 238px; margin-top: 138px!important; height: 15px!important; }
+html .font_medium .video_row_info_play 						{ margin-left: 105px; margin-top: 55px; }
 
 html .font_medium .video_album_bg,
 html .font_medium .video_album_row_inner,
@@ -161,6 +162,9 @@ html .font_medium .big_wall_post #submit_post_box textarea 		{ width: 750px; }
 html .font_medium .mv_cont .narrow_column,
 html .font_medium .pv_cont .narrow_column 						{ width: 190px; }
 html .font_medium #mv_comments_data .wide_column 				{ width: 480px; }
+html .font_medium div#wl_post_body_wrap .wall_text,
+html .font_medium div#wl_post_body_wrap .wall_post_text,
+html .font_medium div#wl_post_body_wrap .post_media 			{ width: 607px!important; }
 html .font_medium #fwr_text 									{ width: 665px; }
 html .font_medium .wide_wall_module .group_share .info, 
 html .font_medium .wide_wall_module .event_share .info,
