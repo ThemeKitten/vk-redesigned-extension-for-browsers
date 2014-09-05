@@ -26,7 +26,7 @@ html .font_medium textarea,
 html .font_medium input.big_text,
 html .font_medium input.file,
 html body.font_medium,
-html body.font_medium #page_body 							{ font-family: Arial, Helvetica, sans-serif; }
+html body.font_medium #page_body 							{ font-family: Helvetica, Arial, sans-serif; }
 html body.font_medium,
 html .font_medium #page_current_info,
 html body.font_medium #page_body 							{ font-size: 13px; }
@@ -58,6 +58,7 @@ html .font_medium .head_nav a.top_nav_link   				{ padding: 20px 15px 21px; font
 html .font_medium .head_nav a.top_nav_link:hover 			{ color: #fff; }
 html .font_medium #head_play_btn 							{ top: 17px; }
 html .font_medium #ts_wrap 									{ height: 41px; left: 172px; }
+html .font_medium .input_back_content 						{ padding: 1px 2px; }
 html .font_medium div.ts 									{ border-radius: 50px; }
 html .font_medium #top_back_link 							{ margin-left: 30px; background-position: left -75px; max-width: 260px!important; }
 html .font_medium div.ts_input_wrap 						{ width: 190px; left: 23px; }
@@ -93,8 +94,8 @@ html .font_medium #profile_main_actions 					 { padding-right: 10px; padding-lef
 html .font_medium .post_upload_wrap 						 { top: 2px; }
 html .font_medium #profile_photos_module .header_top.clear_fix { margin-bottom: 10px; }
 html .font_medium .video_module .info.clear 				 { font-weight: bold; margin-top: 170px; margin-bottom: 5px; font-size: 12px; }
-html .font_medium #group_photos .profile_sized_photos 		 { transform: scale(1.31); height: 100px; margin: 20px 0 10px 65px;  }
-html .font_medium #profile_photos 							 { transform: scale(1.32); margin: 20px 0 20px 62px;  }
+html .font_medium #group_photos .profile_sized_photos 		 { -webkit-transform: scale(1.31); -moz-transform: scale(1.31); -ms-transform: scale(1.31); -o-transform: scale(1.31); transform: scale(1.31); height: 100px; margin: 20px 0 10px 65px;  }
+html .font_medium #profile_photos 							 { -webkit-transform: scale(1.32); -moz-transform: scale(1.32); -ms-transform: scale(1.32); -o-transform: scale(1.32); transform: scale(1.32); margin: 20px 0 20px 62px;  }
 html .font_medium .page_photo_thumb_big,
 html .font_medium .page_album_title_wrap,
 html .font_medium .page_album_row 							 { width: 210px; max-width: 210px; }
